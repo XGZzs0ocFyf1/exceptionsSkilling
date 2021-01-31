@@ -6,9 +6,8 @@ public class Main {
 
     private final static int MAX_ARRAY_LENGTH = 4;
 
-
     /**
-     *
+     * Method converts each element of input array to integer and return sum of all elements.
      * @param array input array of given size (4 in our homework)
      * @return sum of all elements in input array
      *
@@ -33,15 +32,16 @@ public class Main {
         return sumOfAllArrayElements;
     }
 
-    public static void main(String[] args) {
 
+
+    public static void main(String[] args) {
 
         String[][] input = new String[4][4];
 
         //populate array by random 0..9 numbers
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                input[i][j] = ThreadLocalRandom.current().nextInt(0, 9) + "";
+                input[i][j] = ThreadLocalRandom.current().nextInt(0, 9) + ""; //just random number
             }
         }
 

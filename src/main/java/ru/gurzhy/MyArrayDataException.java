@@ -2,7 +2,7 @@ package ru.gurzhy;
 
 /**
  * Thrown to indicate that the application has attempt to convert a String
- * to int type, but string does not have appripriate format.
+ * to int type, but string does not have appropriate format.
  *
  */
 public class MyArrayDataException extends Exception {
